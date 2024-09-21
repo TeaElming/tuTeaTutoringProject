@@ -1,0 +1,26 @@
+.letter {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  user-select: none;
+  cursor: pointer;
+  background-color: white;
+  color: gray;
+}
+
+.letter.chosen {
+  cursor: default;
+}
+
+.letter.included {
+  background-color: lightgreen;
+}
+
+.letter.notIncluded {
+  background-color: lightcoral;
+}

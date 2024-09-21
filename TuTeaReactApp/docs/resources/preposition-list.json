@@ -1,0 +1,102 @@
+[
+  {
+    "word": "I",
+    "translation": "in",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "På",
+    "translation": "on",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Under",
+    "translation": "under",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Över",
+    "translation": "over",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Framför",
+    "translation": "in front of",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Bakom",
+    "translation": "behind",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Bredvid",
+    "translation": "beside",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Mellan",
+    "translation": "between",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Genom",
+    "translation": "through",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Mot",
+    "translation": "towards/against",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Till",
+    "translation": "to",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Från",
+    "translation": "from",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Med",
+    "translation": "with",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Utan",
+    "translation": "without",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Av",
+    "translation": "of/by",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "För",
+    "translation": "for",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Om",
+    "translation": "about/if",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Vid",
+    "translation": "at/by/near",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Efter",
+    "translation": "after",
+    "wordGroup": "Preposition"
+  },
+  {
+    "word": "Före",
+    "translation": "before",
+    "wordGroup": "Preposition"
+  }
+]

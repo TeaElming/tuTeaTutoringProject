@@ -1,0 +1,10 @@
+/* This CSS file is used to style the ForumPage component */
+
+.postManagerDiv {
+  width: 80%; /* Set a fixed width */
+  max-width: 1000px; /* Ensure it does not exceed the viewport */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional subtle shadow for depth */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+

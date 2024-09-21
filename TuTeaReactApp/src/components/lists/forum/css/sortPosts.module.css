@@ -1,0 +1,35 @@
+/* sortPosts.module.css */
+
+/* Container for the sort dropdown */
+.sortContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #faedcdff;
+  box-sizing: border-box;
+}
+
+/* Label styling */
+.sortLabel {
+  margin-right: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Dropdown styling */
+.sortSelect {
+  padding: 10px 20px;
+  background-color: #faedcdff;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for dropdown */
+.sortSelect:hover {
+  background-color: darkblue;
+  color: white;
+}

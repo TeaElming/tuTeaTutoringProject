@@ -1,0 +1,23 @@
+.randomSentenceContainer {
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 2px auto;
+  text-align: left;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(109, 101, 80, 0.469);
+  cursor: pointer;
+}
+
+.randomSentenceContainer h2 {
+  margin-top: 0px;
+  margin-bottom: 12px;
+  color: #333;
+  text-align: center;
+}
+
+.sentenceDisplay p {
+  text-align: center;
+  margin: 2px;
+}

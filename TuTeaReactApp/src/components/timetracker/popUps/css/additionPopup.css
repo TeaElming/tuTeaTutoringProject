@@ -1,0 +1,49 @@
+/* Overlay for the popup, covering the entire viewport */
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure the popup is above other content */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+/* Main container for the popup */
+/* Main container for the popup */
+.popupContainer {
+  background: #fff; /* White background for the popup */
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%; /* Responsive width */
+  max-width: 500px; /* Maximum width */
+  max-height: 80vh; /* Set a max height to make space for scrolling */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  position: relative; /* For positioning the close button */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Hide horizontal overflow */
+  box-sizing: border-box; /* Include padding in width and height */
+}
+
+
+/* Close button styling */
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.closeButton:hover {
+  color: #ff0000; /* Change color on hover */
+}

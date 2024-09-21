@@ -1,0 +1,16 @@
+/* mainBackground.css */
+.container {
+  width: 100vw;
+  margin: 0; /* Remove the margin to ensure seamless transition */
+  border-radius: 0; /* Remove border radius for a seamless connection between sections */
+  outline: none; /* Remove the outline to match the seamless design */
+  background-color: #fefae0ff;
+  color: rgb(0, 0, 0);
+  padding: 0px;
+  box-sizing: border-box;
+  flex-grow: 1; /* Allow it to take up remaining space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

@@ -1,0 +1,57 @@
+[
+  {
+    "Rule": "Subject-Verb-Object (SVO)",
+    "Description": "Swedish word order often follows the pattern subject-verb-object. Example: \"Jag äter mat\" (I eat food).",
+    "Comment": "Applies to main clauses."
+  },
+  {
+    "Rule": "Definite Form",
+    "Description": "Nouns in Swedish grammar have definite and indefinite forms. Example: \"en bok\" (a book, indefinite), \"boken\" (the book, definite).",
+    "Comment": "Used to indicate specific reference."
+  },
+  {
+    "Rule": "Gender",
+    "Description": "Nouns have two genders: common gender (utrum) and neuter, which affect articles and adjectives. Example: \"en bil\" (a car), \"ett hus\" (a house).",
+    "Comment": "Common gender is often called \"en-words\" and neuter \"ett-words\"."
+  },
+  {
+    "Rule": "Adjective Declension",
+    "Description": "Adjectives are declined based on the gender and number of the noun. Example: \"en stor bil\" (a big car), \"ett stort hus\" (a big house), \"två stora bilar\" (two big cars).",
+    "Comment": "Important for correct sentence structure."
+  },
+  {
+    "Rule": "Tense",
+    "Description": "Swedish has several tenses: present, past, perfect, pluperfect, and future. Example: \"jag äter\" (I eat), \"jag åt\" (I ate).",
+    "Comment": "Varies depending on the time frame."
+  },
+  {
+    "Rule": "Negation",
+    "Description": "Negation in Swedish is usually expressed with \"inte\" after the first verb. Example: \"Jag vill inte\" (I don't want to).",
+    "Comment": "Important for correctly expressing negation."
+  },
+  {
+    "Rule": "Question Words",
+    "Description": "Questions begin with interrogatives like \"vad\" (what), \"var\" (where), \"hur\" (how). Example: \"Vad heter du?\" (What is your name?).",
+    "Comment": "Fundamental for asking questions."
+  },
+  {
+    "Rule": "Word Order in Subordinate Clauses",
+    "Description": "In subordinate clauses, the verb is placed at the end. Example: \"Jag vet att du kommer\" (I know that you are coming).",
+    "Comment": "Known as \"straight word order\"."
+  },
+  {
+    "Rule": "Comparison of Adjectives",
+    "Description": "Adjectives are compared by adding \"-are\" and \"-ast\". Example: \"snabb, snabbare, snabbast\" (fast, faster, fastest).",
+    "Comment": "Used to compare qualities."
+  },
+  {
+    "Rule": "Pronouns",
+    "Description": "Personal pronouns are essential for replacing nouns. Example: \"jag\" (I), \"du\" (you), \"han\" (he), \"hon\" (she).",
+    "Comment": "Important for avoiding repetition."
+  },
+  {
+    "Rule": "Inverted Word Order",
+    "Description": "Inverted word order is often used in questions or after certain introductory adverbials. Example: \"Igår gick jag till skolan\" (Yesterday, I went to school).",
+    "Comment": "The verb comes before the subject."
+  }
+]

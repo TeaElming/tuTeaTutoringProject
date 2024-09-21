@@ -1,0 +1,28 @@
+.tile {
+  width: 100px;
+  height: 100px;
+  background-image: url('/imgs/easterEggs/loggedinCorner.jpg');
+  background-size: cover; /* Ensure the image covers the entire tile */
+  background-size: 110% 110%; /* Adjust size so that the image is 3 times larger than the tile */
+  background-position: 0 0; /* Show the top half */
+  margin: 2px;
+  outline: solid 1px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.7s, background-image 0.7s; /* Add transition for background-image */
+}
+
+/* Class to apply when the tile is flipped */
+.isFlipped {
+  background-color: rgb(245, 250, 99);
+  background-image: none; /* Remove the background image */
+}
+
+/* Class to apply when the tile is matched */
+.isMatched {
+  background-color: rgb(0, 255, 170);
+  background-image: none; /* Remove the background image */
+}

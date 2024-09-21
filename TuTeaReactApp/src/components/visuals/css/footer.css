@@ -1,0 +1,40 @@
+.custom-footer {
+  width: 100%;
+  padding: 0px 10px;
+  background-color: #faedcdff; /* Match the background color with the navbar */
+  box-sizing: border-box; /* Include padding in element width/height */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  border-top: 1px solid rgb(109, 101, 80);
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Spread out content */
+  align-items: center;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Space between list items */
+  flex-wrap: wrap; /* Wrap items if they don't fit */
+}
+
+.footer-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #000; /* Set link color */
+}
+
+.footer-logo {
+  margin-left: auto; /* Push logo to the far right */
+}

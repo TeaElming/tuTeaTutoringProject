@@ -1,0 +1,13 @@
+.hangmanContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.hangmanStages {
+  font-family: monospace;
+  white-space: pre;
+  text-align: center;
+}

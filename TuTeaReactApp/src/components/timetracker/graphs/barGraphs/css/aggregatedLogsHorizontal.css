@@ -1,0 +1,54 @@
+/* Main container for the horizontal bar chart */
+.horizontalBarChartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faedcd;
+  padding: 10px; /* Reduce padding */
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Title styling */
+.chartTitle {
+  color: #6d6550;
+  margin-bottom: 5px; /* Reduce margin */
+  margin-top: 0px;
+  text-align: center;
+}
+
+/* Custom Tooltip styling */
+.custom-tooltip {
+  background-color: white;
+  padding: 5px; /* Reduce padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for date inputs */
+.controlsContainer {
+  display: flex; /* Use flex to align items in a row */
+  gap: 10px; /* Add some space between the inputs */
+  justify-content: center; /* Center the date inputs */
+  align-items: center; /* Vertically center the inputs */
+}
+
+/* Style for each date input */
+.dateInput {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Label styling to align text correctly */
+.controlsContainer label {
+  display: flex; /* Flex to align label text with input */
+  flex-direction: column; /* Stack label text above the input */
+  font-size: 14px;
+  color: #6d6550;
+  font-weight: bold;
+  margin-bottom: 0;
+}

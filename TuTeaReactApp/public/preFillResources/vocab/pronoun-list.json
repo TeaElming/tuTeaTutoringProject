@@ -1,0 +1,122 @@
+[
+  {
+    "word": "jag",
+    "translation": "I",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "du",
+    "translation": "you",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "han",
+    "translation": "he",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "hon",
+    "translation": "she",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "den/det",
+    "translation": "it",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "vi",
+    "translation": "we",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "ni",
+    "translation": "you (plural)",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "de",
+    "translation": "they",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "mig",
+    "translation": "me",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "dig",
+    "translation": "you",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "honom",
+    "translation": "him",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "henne",
+    "translation": "her",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "den/det",
+    "translation": "it",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "oss",
+    "translation": "us",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "er",
+    "translation": "you (plural)",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "dem",
+    "translation": "them",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "min/mitt/mina",
+    "translation": "my, mine",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "din/ditt/dina",
+    "translation": "your, yours",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "hans",
+    "translation": "his",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "hennes",
+    "translation": "her(s)",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "dess",
+    "translation": "its",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "vår/vårt/våra",
+    "translation": "our, ours",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "er/ert/era",
+    "translation": "your (plural), yours (plural)",
+    "wordGroup": "Pronoun"
+  },
+  {
+    "word": "deras",
+    "translation": "their(s)",
+    "wordGroup": "Pronoun"
+  }
+]

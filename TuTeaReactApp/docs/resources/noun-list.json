@@ -1,0 +1,372 @@
+[
+  {
+    "word": "Mamma",
+    "translation": "mum/mother",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Pappa",
+    "translation": "dad/father",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Barn",
+    "translation": "child/children",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Bror",
+    "translation": "brother",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Syster",
+    "translation": "sister",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Farfar",
+    "translation": "paternal grandfather",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Farmor",
+    "translation": "paternal grandmother",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Morfar",
+    "translation": "maternal grandfather",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Mormor",
+    "translation": "maternal grandmother",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Kusin",
+    "translation": "cousin",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Brorsdotter",
+    "translation": "niece (brother's daughter)",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Systerdotter",
+    "translation": "niece (sister's daughter)",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Brorson",
+    "translation": "nephew (brother's son)",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Systerson",
+    "translation": "nephew (sister's son)",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Moster",
+    "translation": "maternal aunt",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Morbror",
+    "translation": "maternal uncle",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Faster",
+    "translation": "paternal aunt",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Farbror",
+    "translation": "paternal uncle",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Make/man",
+    "translation": "husband",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Maka/fru",
+    "translation": "wife",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Dotter",
+    "translation": "daughter",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Son",
+    "translation": "son",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Släkting",
+    "translation": "relative",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Familj",
+    "translation": "family",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Lärare",
+    "translation": "teacher",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Student",
+    "translation": "student",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Arbete",
+    "translation": "work/job",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Chef",
+    "translation": "boss/manager",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Kollegor",
+    "translation": "colleagues",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Skola",
+    "translation": "school",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Universitet",
+    "translation": "university",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Examen",
+    "translation": "exam/degree",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Kurs",
+    "translation": "course",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Projekt",
+    "translation": "project",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Fotboll",
+    "translation": "soccer",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Basket",
+    "translation": "basketball",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Tennis",
+    "translation": "tennis",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Hockey",
+    "translation": "hockey",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Friidrott",
+    "translation": "athletics",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Löpare",
+    "translation": "runner",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Gymnastik",
+    "translation": "gymnastics",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Simning",
+    "translation": "swimming",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Skidor",
+    "translation": "skiing",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Cykling",
+    "translation": "cycling",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Musik",
+    "translation": "music",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Fotografering",
+    "translation": "photography",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Läsa",
+    "translation": "to read",
+    "wordGroup": "Verb"
+  },
+  {
+    "word": "Spel",
+    "translation": "games",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Måleri",
+    "translation": "painting (as in art)",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Trädgård",
+    "translation": "garden",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Stickning",
+    "translation": "knitting",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Dans",
+    "translation": "dance",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Matlagning",
+    "translation": "cooking",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Vandring",
+    "translation": "hiking",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Bil",
+    "translation": "car",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Hus",
+    "translation": "house",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Vatten",
+    "translation": "water",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Mat",
+    "translation": "food",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Pengar",
+    "translation": "money",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Bok",
+    "translation": "book",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Kläder",
+    "translation": "clothes",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Stol",
+    "translation": "chair",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Fönster",
+    "translation": "window",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Dator",
+    "translation": "computer",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Vän",
+    "translation": "friend",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Kaffe",
+    "translation": "coffee",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Säng",
+    "translation": "bed",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Tidning",
+    "translation": "newspaper",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Mobil",
+    "translation": "mobile phone",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Gata",
+    "translation": "street",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Stol",
+    "translation": "chair",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Flygplan",
+    "translation": "airplane",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Djur",
+    "translation": "animal",
+    "wordGroup": "Noun"
+  },
+  {
+    "word": "Sol",
+    "translation": "sun",
+    "wordGroup": "Noun"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "sentence": "Jag heter [ditt namn].",
+    "semanticTranslation": "My name is [your name].",
+    "directTranslation": "I am called [your name]."
+  },
+  {
+    "sentence": "Hur mår du?",
+    "semanticTranslation": "How are you?",
+    "directTranslation": "How feel you?"
+  },
+  {
+    "sentence": "Jag mår bra, tack.",
+    "semanticTranslation": "I'm fine, thank you.",
+    "directTranslation": "I feel good, thanks."
+  },
+  {
+    "sentence": "Vad heter du?",
+    "semanticTranslation": "What's your name?",
+    "directTranslation": "What are you called?"
+  },
+  {
+    "sentence": "Var bor du?",
+    "semanticTranslation": "Where do you live?",
+    "directTranslation": "Where live you?"
+  },
+  {
+    "sentence": "Jag bor i Sverige.",
+    "semanticTranslation": "I live in Sweden.",
+    "directTranslation": "I live in Sweden."
+  },
+  {
+    "sentence": "Hur gammal är du?",
+    "semanticTranslation": "How old are you?",
+    "directTranslation": "How old are you?"
+  },
+  {
+    "sentence": "Jag är [antal] år gammal.",
+    "semanticTranslation": "I am [number] years old.",
+    "directTranslation": "I am [number] years old."
+  },
+  {
+    "sentence": "Vilket språk talar du?",
+    "semanticTranslation": "What language do you speak?",
+    "directTranslation": "Which language speak you?"
+  },
+  {
+    "sentence": "Jag talar svenska och engelska.",
+    "semanticTranslation": "I speak Swedish and English.",
+    "directTranslation": "I speak Swedish and English."
+  },
+  {
+    "sentence": "Vad gör du idag?",
+    "semanticTranslation": "What are you doing today?",
+    "directTranslation": "What do you today?"
+  },
+  {
+    "sentence": "Jag arbetar som lärare.",
+    "semanticTranslation": "I work as a teacher.",
+    "directTranslation": "I work as teacher."
+  },
+  {
+    "sentence": "Jag studerar på universitetet.",
+    "semanticTranslation": "I study at the university.",
+    "directTranslation": "I study at the university."
+  },
+  {
+    "sentence": "Kan du hjälpa mig?",
+    "semanticTranslation": "Can you help me?",
+    "directTranslation": "Can you help me?"
+  },
+  {
+    "sentence": "Jag förstår inte.",
+    "semanticTranslation": "I don't understand.",
+    "directTranslation": "I understand not."
+  },
+  {
+    "sentence": "Kan du upprepa, tack?",
+    "semanticTranslation": "Can you repeat, please?",
+    "directTranslation": "Can you repeat, thanks?"
+  },
+  {
+    "sentence": "Ursäkta, var ligger närmaste butik?",
+    "semanticTranslation": "Excuse me, where is the nearest store?",
+    "directTranslation": "Excuse, where lies nearest store?"
+  },
+  {
+    "sentence": "Jag vill ha en kopp kaffe, tack.",
+    "semanticTranslation": "I would like a cup of coffee, please.",
+    "directTranslation": "I want have a cup coffee, thanks."
+  },
+  {
+    "sentence": "Vad kostar det?",
+    "semanticTranslation": "How much does it cost?",
+    "directTranslation": "What costs it?"
+  },
+  {
+    "sentence": "Trevligt att träffas!",
+    "semanticTranslation": "Nice to meet you!",
+    "directTranslation": "Pleasant to meet!"
+  }
+]

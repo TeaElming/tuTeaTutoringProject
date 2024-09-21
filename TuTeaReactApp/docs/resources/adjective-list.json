@@ -1,0 +1,102 @@
+[
+  {
+    "word": "Stor",
+    "translation": "big, large",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Liten",
+    "translation": "small, little",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Bra",
+    "translation": "good",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Dålig",
+    "translation": "bad",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Ny",
+    "translation": "new",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Gammal",
+    "translation": "old",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Lång",
+    "translation": "long, tall",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Kort",
+    "translation": "short",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Hög",
+    "translation": "high",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Låg",
+    "translation": "low",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Ung",
+    "translation": "young",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Vacker",
+    "translation": "beautiful, pretty",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Ful",
+    "translation": "ugly",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Snäll",
+    "translation": "kind, nice",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Elak",
+    "translation": "mean, nasty",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Glad",
+    "translation": "happy",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Ledsen",
+    "translation": "sad",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Rik",
+    "translation": "rich",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Fattig",
+    "translation": "poor",
+    "wordGroup": "Adjective"
+  },
+  {
+    "word": "Trött",
+    "translation": "tired",
+    "wordGroup": "Adjective"
+  }
+]

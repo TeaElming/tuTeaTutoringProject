@@ -1,0 +1,102 @@
+[
+  {
+    "word": "Och",
+    "translation": "and",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Men",
+    "translation": "but",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Eller",
+    "translation": "or",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "För",
+    "translation": "for",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Så",
+    "translation": "so",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Om",
+    "translation": "if",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Eftersom",
+    "translation": "because",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Att",
+    "translation": "that/to",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "När",
+    "translation": "when",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Medan",
+    "translation": "while",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Då",
+    "translation": "then",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Fast",
+    "translation": "although",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Trots att",
+    "translation": "despite",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Innan",
+    "translation": "before",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Efter att",
+    "translation": "after",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Även om",
+    "translation": "even if",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Som",
+    "translation": "as/like",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "För att",
+    "translation": "in order to",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Både ... och",
+    "translation": "both ... and",
+    "wordGroup": "Conjunction"
+  },
+  {
+    "word": "Antingen ... eller",
+    "translation": "either ... or",
+    "wordGroup": "Conjunction"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "word": "Hej",
+    "translation": "hello/hi",
+    "wordGroup": "Interjection"
+  },
+  {
+    "word": "Hej då",
+    "translation": "goodbye",
+    "wordGroup": "Interjection"
+  },
+  {
+    "word": "God morgon",
+    "translation": "good morning",
+    "wordGroup": "Interjection"
+  },
+  {
+    "word": "God kväll",
+    "translation": "good evening",
+    "wordGroup": "Interjection"
+  },
+  {
+    "word": "God natt",
+    "translation": "good night",
+    "wordGroup": "Interjection"
+  },
+  {
+    "word": "Skål",
+    "translation": "cheers",
+    "wordGroup": "Interjection"
+  },
+  {
+    "word": "Hallå",
+    "translation": "hello/hey",
+    "wordGroup": "Interjection"
+  },
+  {
+    "word": "Hejsan",
+    "translation": "hi (informal)",
+    "wordGroup": "Interjection"
+  },
+  {
+    "word": "Välkommen",
+    "translation": "welcome",
+    "wordGroup": "Interjection"
+  },
+  {
+    "word": "Adjö",
+    "translation": "farewell",
+    "wordGroup": "Interjection"
+  },
+  {
+    "word": "Farväl",
+    "translation": "farewell",
+    "wordGroup": "Interjection"
+  }
+]

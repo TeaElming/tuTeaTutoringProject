@@ -1,0 +1,35 @@
+.guessTheWordGame {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.inputBox {
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.wordBox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 24px;
+}
+
+.letter {
+  border-bottom: 2px solid black;
+  width: 30px;
+  text-align: center;
+}
+
+.correct {
+  color: green;
+}
+
+.misplaced {
+  color: orange;
+}
+
+.incorrect {
+  color: red;
+}

@@ -1,0 +1,56 @@
+/* confirmationPopup.module.css */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure the popup is above other content */
+}
+
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.confirmButton,
+.cancelButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.confirmButton {
+  background-color: #28a745;
+  color: white;
+}
+
+.cancelButton {
+  background-color: #dc3545;
+  color: white;
+}

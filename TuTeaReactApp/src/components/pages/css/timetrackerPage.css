@@ -1,0 +1,67 @@
+.wholeTrackerPage {
+  background-color: #faedcd;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+}
+
+/* Button container styling */
+.timeAdderButton {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  align-items: center; /* Center the button vertically */
+  width: 100%;
+  margin-top: -2px;
+  margin-bottom: -3px;
+  z-index: 2;
+}
+
+.timeAdderButton button {
+  padding: 5px 10px;
+  border-radius: 25px;
+  background-color: rgba(109, 101, 80, 0.565);
+  border: 1px solid black;
+  box-shadow: 2px 3px rgb(109, 101, 80);
+}
+
+/* Main content grid */
+.timetrackerPageContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-rows: 1fr; /* Define grid with one row */
+  gap: 10px;
+  max-width: 70vw; /* Set maximum width to 70% of the viewport */
+  min-width: 800px; /* Minimum width is 800px */
+  margin: 0 auto; /* Center the grid container */
+  margin-bottom: 5px;
+  height: calc(100vh - 20vh - 10px); /* Adjust height to fill the rest of the viewport */
+  overflow: scroll; /* Prevent grid overflow */
+}
+
+.component1,
+.component2 {
+  overflow-y: auto; /* Enable vertical scrolling within each component */
+  height: 100%; /* Ensure components fill their assigned grid space */
+  min-width: 400px; /* Ensure each component has a minimum width of 400px */
+}
+
+/* Component 1 styling */
+.component1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-right: 1px solid black;
+}
+
+.component2 {
+  border-left: 1px solid black;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 1200px) {
+  .timetrackerPageContainer {
+    max-width: 100%; /* Adjust for smaller screens */
+  }
+}

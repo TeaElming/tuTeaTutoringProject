@@ -1,0 +1,87 @@
+/* Main container for both components */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px; /* Unified padding */
+  background-color: #faedcd; /* Matching background color */
+  margin-bottom: 0; /* Ensure no extra spacing */
+}
+
+/* Heading styling for consistency */
+.formHeading {
+  color: #6d6550; /* Matching color */
+  margin: 0 0 10px 0; /* Unified margins for spacing */
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.75rem; /* Adjusted font size */
+}
+
+/* Form group adjustments */
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px; /* Reduce spacing */
+  width: 100%;
+  max-width: 500px; /* Consistent max width */
+}
+
+/* Consistent label styling */
+.formLabel {
+  margin: 0; /* Remove extra margins */
+  font-weight: bold;
+  color: #6d6550; /* Matching text color */
+}
+
+/* Input, select, and checkbox field styling */
+.inputField,
+.selectField,
+.checkboxField {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  color: #6d6550;
+  font-size: 1rem;
+  min-height: 40px; /* Consistent minimum height */
+}
+
+/* Checkbox specific styling */
+.checkboxWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Reduce extra spacing */
+}
+
+/* Submit button styling */
+.submitButton {
+  border: 2px solid black;
+  background-color: blue;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+  margin-top: 20px; /* Space above the button */
+}
+
+.submitButton:hover {
+  background-color: darkblue;
+}
+
+/* Error message styling */
+.errorMessage {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}

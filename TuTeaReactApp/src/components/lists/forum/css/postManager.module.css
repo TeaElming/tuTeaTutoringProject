@@ -1,0 +1,22 @@
+/* PostManager.module.css */
+
+.postManagerContainer {
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 10px; /* Padding for inner spacing */
+  box-sizing: border-box; /* Include padding and border in the width */
+  background-color: rgba(109, 101, 80, 0.466); /* Background color for visibility */
+  border: 1px solid #ddd; /* Border for the container */
+  overflow: hidden; /* Ensure content does not overflow */
+}
+
+@media (max-width: 1200px) {
+  .postManagerContainer {
+    width: 90%; /* Slightly increase width for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .postManagerContainer {
+    width: 95%; /* Further increase width for even smaller screens */
+  }
+}

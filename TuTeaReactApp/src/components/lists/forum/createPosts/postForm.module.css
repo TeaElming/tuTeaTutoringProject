@@ -1,0 +1,57 @@
+/* Center form content within parent container */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #faedcdff; /* Match background color */
+}
+
+/* Form heading styling */
+.formHeading {
+  color: #6d6550; /* Match selected button color */
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+/* Input field and textarea styling */
+.inputField,
+.textArea {
+  min-width: 450px;
+  width: 90%; /* Ensure width is 80% of the container */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  background-color: white; /* Consistent input background */
+  color: #6d6550; /* Text color to match */
+  min-height: 50px;
+}
+
+/* Button styling */
+.submitButton {
+  border: 2px solid black;
+  background-color: blue; /* Match primary button background */
+  color: white; /* Match primary button text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.submitButton:hover {
+  background-color: darkblue; /* Match hover effect of top-button */
+}
+
+/* Error message styling */
+.errorMessage {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}

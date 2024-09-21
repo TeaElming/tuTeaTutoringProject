@@ -1,0 +1,56 @@
+/* expression.module.css */
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.formGroup {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+  margin: 3px;
+}
+
+
+.textarea {
+	width: 100%;
+	min-height: 60px; /* Enough space for approximately 3 lines */
+	max-height: 100px;
+	padding: 10px;
+	margin-bottom: 2px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical; /* Allow vertical resizing */
+	overflow: auto; /* Scrollbar if content exceeds max-height */
+}
+
+.button {
+	align-self: center; /* Center the submit button */
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #0056b3; /* Darker shade when hovered over */
+}
+
+.error {
+	color: red;
+	margin-top: 10px;
+	text-align: center;
+}

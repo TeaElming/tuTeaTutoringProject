@@ -1,0 +1,32 @@
+/** vocab.module.css */
+.headerRow, .vocabularyRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin: 0; /* Ensures the list has no default margin */
+  list-style-type: none; /* Removes bullet points */
+  cursor: pointer; /* Changes the cursor to a pointer */
+}
+
+.vocabularyRow:nth-child(odd) {
+  background-color: #add8e6; /* Light blue for odd rows */
+}
+
+.vocabularyRow:nth-child(even) {
+  background-color: #ffffe0; /* Light yellow for even rows */
+}
+
+.column {
+  flex: 1; /* Ensures equal width for each column */
+  padding: 0 10px; /* Adds some padding on both sides */
+  text-align: left; /* Aligns text to the left */
+  overflow: hidden; /* Ensures content does not overflow */
+  white-space: nowrap; /* Prevents text from wrapping */
+  text-overflow: ellipsis; /* Adds an ellipsis if text overflows */
+}
+
+.column a {
+  color: inherit; /* Ensures link color matches text color */
+  text-decoration: none; /* Removes underline from links */
+}

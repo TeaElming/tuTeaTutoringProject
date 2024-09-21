@@ -1,0 +1,62 @@
+.latestPostsContainer {
+  padding: 16px;
+  background-color: #f9f9f9; /* Slightly lighter background */
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(109, 101, 80, 0.469);
+  width: 100%; /* Ensure the container takes the full width of its parent */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+  margin: 2px 0;
+  cursor: pointer;
+}
+
+.latestPostsContainer h2 {
+  margin-top: 0px;
+  margin-bottom: 12px; /* Reduced margin */
+  color: #333;
+  text-align: center;
+}
+
+.latestPostsContainer .postList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.latestPostsContainer .postItem {
+  display: flex;
+  justify-content: space-between; /* Title on the left, date on the right */
+  align-items: center;
+  background-color: #ffffff; /* White background for a clean look */
+  color: #333;
+  padding: 0px 12px; /* Reduced padding for compactness */
+  margin-bottom: 0px; /* Reduced margin between posts */
+  border-radius: 4px;
+  border: 1px solid #ddd; /* Lighter border */
+  transition: background-color 0.3s ease;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+  height: min-content;
+}
+
+.latestPostsContainer .postItem:hover {
+  background-color: #f0f0f0; /* Subtle hover effect */
+}
+
+.latestPostsContainer .postTitle {
+  font-size: 16px; /* Slightly smaller font size */
+  font-weight: bold;
+  margin: 0; /* Remove extra margin */
+  overflow: hidden; /* Ensure truncation with ellipsis */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  flex-grow: 1; /* Allow the title to take up remaining space */
+}
+
+.latestPostsContainer .postDate {
+  font-size: 12px;
+  color: #888888; /* Slightly darker date color */
+  flex-shrink: 0; /* Prevent the date from shrinking */
+  margin-left: 16px; /* Add some space between the title and date */
+  text-align: right; /* Align date to the right */
+}

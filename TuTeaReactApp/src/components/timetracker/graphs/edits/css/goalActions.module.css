@@ -1,0 +1,80 @@
+/* Container for the entire form */
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #faedcd; /* Matching background color */
+}
+
+/* Reduce space between the h1 and activity selector */
+.formHeading {
+  color: #6d6550; /* Matching color */
+  margin-bottom: 10px; /* Reduced margin for less space */
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 2rem; /* Adjusted font size */
+}
+
+/* Styling for label and input fields */
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 500px; /* Ensures it doesn't get too wide */
+}
+
+.formLabel {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #6d6550; /* Matching color */
+}
+
+.inputField {
+  width: 100%; /* Full width */
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  color: #6d6550; /* Matching text color */
+  font-size: 1rem; /* Bigger input text */
+  min-height: 50px; /* Consistent height */
+}
+
+/* Submit button styling */
+.submitButton {
+  border: 2px solid black;
+  background-color: rgb(109, 101, 80);
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 5px; /* Space between buttons */
+}
+
+.submitButton:hover {
+  background-color: rgb(70, 65, 52);
+}
+
+/* Container to place buttons side by side */
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust gap between buttons if needed */
+}
+
+/* Error message styling */
+.errorMessage {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}

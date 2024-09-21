@@ -1,0 +1,31 @@
+/* actionFilter.module.css */
+
+/* Container for the filter checkboxes */
+.actionFilterContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #faedcdff; /* Matching background color */
+  box-sizing: border-box;
+}
+
+/* General checkbox styling */
+.actionFilterLabel {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Checkbox input */
+.actionFilterInput {
+  margin-right: 10px; /* Space between checkbox and label text */
+  cursor: pointer;
+}
+
+/* Hover effect for labels */
+.actionFilterLabel:hover {
+  background-color: darkblue; /* Darker shade on hover */
+  color: white;
+  border-radius: 5px; /* Match button styling */
+}

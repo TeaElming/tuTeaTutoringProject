@@ -1,0 +1,22 @@
+.componentOutline {
+  outline: 1px solid #000;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.fileInput {
+  margin-bottom: 10px;
+}
+
+.uploadButton {
+  background-color: rgb(225, 189, 152);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: 1px solid #000;
+  transition: background-color 0.3s;
+}
+
+.uploadButton:hover {
+  background-color: rgb(213, 148, 83);
+}

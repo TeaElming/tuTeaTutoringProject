@@ -1,0 +1,74 @@
+/* Main container for the entire component */
+.aggregatedLogsGraphContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#faedcd;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; /* Ensures padding is included in the total width and height */
+}
+
+/* Title styling */
+.graphTitle {
+  color: #6d6550;
+  margin-top: 5px; /* Space between heading and content */
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/* Responsive container for the scatter chart */
+.scatterChartContainer {
+  width: 100%;
+  max-height: 600px; /* Limits maximum height */
+  min-height: 200px; /* Ensures a minimum height */
+  margin-bottom: -10px;
+}
+
+/* Date inputs and activity selector container */
+.controlsContainer {
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center controls */
+  align-items: center;
+}
+
+/* Custom legend container styling */
+.legendContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the legend items */
+  gap: 10px;
+}
+
+/* Custom tooltip styling */
+.custom-tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+/* Responsive input fields */
+.dateInput {
+  padding: 4px;
+  margin-left: 2px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Activity selector heading */
+.activitySelectorHeading {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Scatter chart grid and axis styling */
+.recharts-cartesian-axis {
+  font-size: 0.9rem;
+  fill: #333; /* Text color */
+}

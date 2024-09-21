@@ -1,0 +1,54 @@
+/* postList.module.css */
+
+/* Main container styling */
+.postListDiv {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #faedcdff; /* Match the overall background color */
+  padding: 0px; /* Reduce padding to make it less */
+}
+
+/* Header row styling */
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(109, 101, 80);
+  font-weight: bold;
+}
+
+/* Column styling */
+.column {
+  flex: 1;
+  padding: 0 10px;
+}
+
+/* Styling for the post list */
+.postList {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* Styling for each post element */
+.postItem {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  transition: background-color 0.3s ease;
+}
+
+.postItem:hover {
+  background-color: darkblue; /* Slightly darker on hover */
+}
+
+/* Specific styling for the h2 element */
+.postListDiv h2 {
+  font-size: 1.5em; /* Reduce font size */
+  padding: 0px 0px; /* Reduce padding */
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Optional: Center align if needed */
+}

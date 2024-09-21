@@ -1,0 +1,35 @@
+{
+  "name": "timeservice",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:1dv613/student/ts223ir/projects/TimeService.git"
+  },
+  "keywords": [],
+  "author": "Tea Elming",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "inversify": "^6.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.3",
+    "node-fetch": "^3.3.2",
+    "reflect-metadata": "^0.2.2",
+    "validator": "^13.12.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
+}

@@ -1,0 +1,6 @@
+/* memoryGame.css */
+.memory-game {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}

@@ -1,0 +1,100 @@
+/* Main container styling */
+.selectorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #faedcd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.selectorTitle {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #6d6550;
+}
+
+/* Toggle switch container */
+.toggleContainer {
+  margin-bottom: 5px; /* Reduced space below the toggle */
+  display: flex;
+  align-items: center;
+  gap: 4px; /* Slightly reduced gap for compact appearance */
+  margin-left: auto; /* Pushes the toggle switch to the right */
+}
+
+/* Labels for each side of the toggle */
+.labelLeft,
+.labelRight {
+  font-size: 0.9rem;
+  color: #6d6550;
+  font-weight: bold;
+  margin: 0 5px; /* Add a bit of space around the labels */
+}
+
+/* Toggle label and slider styles */
+.toggleLabel {
+  position: relative;
+  display: inline-block;
+  width: 40px; /* Slimmer width */
+  height: 20px; /* Slimmer height */
+}
+
+/* Hide default checkbox */
+.toggleInput {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.3s;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Slider when checked */
+.toggleInput:checked + .slider {
+  background-color: #82ca9d;
+}
+
+/* The slider before switch */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 6px; /* Reduced size to match the slimmer appearance */
+  width: 16px; /* Reduced size to match the slimmer appearance */
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+/* Move slider when checked */
+.toggleInput:checked + .slider:before {
+  transform: translateX(18px); /* Adjusted for the slimmer switch */
+}
+
+/* Chart container to hold the charts */
+.chartContainer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px; /* Reduced space between the toggle and the chart */
+}

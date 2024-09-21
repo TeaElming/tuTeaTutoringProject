@@ -1,0 +1,27 @@
+.piechartDiv {
+  display: flex; /* Remove quotes around values */
+  align-items: center;
+  background-color: #faedcd;
+  padding: 10px; /* Optional: Add padding for spacing */
+  border: 1px solid rgb(109, 101, 80); /* Optional: Add a border for clear separation */
+  width: 90%;
+}
+
+.sideInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure content fills the height */
+  align-items: flex-start; /* Align text to the left */
+  margin-left: 20px; /* Space between pie chart and side info */
+  flex: 1; /* Allow side info to grow and match height */
+  color: #6d6550;
+}
+
+.sideInfo p {
+  margin-top: 5px;
+  margin-bottom: 0px; /* Remove default margin */
+}
+
+.piechartDiv > .sideInfo {
+  height: 100%; /* Ensure the side info matches the height of the container */
+}

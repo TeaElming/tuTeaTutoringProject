@@ -1,0 +1,12 @@
+# Node Modules
+node_modules
+
+# Local env files
+.env
+
+# Pem files
+private.pem
+public.pem
+
+# Coverage Report
+# coverage

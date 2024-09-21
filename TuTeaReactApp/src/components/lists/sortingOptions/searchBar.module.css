@@ -1,0 +1,10 @@
+/* SearchBar.module.css */
+.searchInput {
+  width: 100%;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 15px; /* Add margin for spacing */
+}

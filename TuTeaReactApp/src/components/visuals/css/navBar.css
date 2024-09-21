@@ -1,0 +1,97 @@
+.navbar {
+  height: 50px; /* Consistent height */
+  margin: 0; /* Remove the margin to avoid gaps */
+  width: 100vw;
+  padding: 0 10px; /* Adjust padding to be consistent with other sections */
+  display: flex;
+  justify-content: space-between; /* Aligns items to the start and end of the container */
+  align-items: center; /* Vertically centers items */
+  background-color: rgb(109, 101, 80); /* Match the background color with the footer */
+  border-bottom: 2px solid #e9ecef; /* Optional: border at the bottom */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+ul.nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  padding: 5px 10px;
+  margin-bottom: -13px;
+  min-width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure the items take the full height of the navbar */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #faedcdff;
+  border-top: 1px solid black;   /* Border on the top */
+  border-left: 1px solid black;  /* Border on the left */
+  border-right: 1px solid black; /* Border on the right */
+  border-bottom: none;           /* No border on the bottom */
+}
+
+.nav-item:hover:not(.active) {
+  background-color: #e9edc9ff;
+}
+
+.nav-item.active {
+  background-color: #faedcdff;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem; /* Ensure the text size is consistent */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-right: 10px;
+  height: 100%; /* Ensure the brand takes the full height of the navbar */
+}
+
+.navbar-brand img {
+  height: 30px; /* Adjusted height for the logo */
+  width: auto;
+}
+
+.logoutButton {
+  padding: 5px 10px;
+  min-width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #faedcdff;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  font-size: 1rem; /* Set the font size to match .nav-link */
+}
+
+.logoutButton:hover {
+  background-color: #e9edc9ff;
+}
+
+.logoutButton:focus {
+  outline: none; /* Remove the default focus outline */
+}
+
+.logoutButton:active {
+  background-color: #e9edc9ff; /* Optional: match hover and active states */
+}
